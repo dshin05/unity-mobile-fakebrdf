@@ -37,7 +37,7 @@ Material:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 8900000, guid: 7f0841d3aecc34e8682f1da5df50db6a, type: 3}
+          m_Texture: {fileID: 8900000, guid: a6d35668374034f938fa110bbb0c0086, type: 3}
           m_Scale: {x: 4, y: 5}
           m_Offset: {x: 0, y: 0}
       data:
@@ -66,11 +66,11 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 1.17164183
+        second: 1.61940289
       data:
         first:
           name: _RimMultiply
-        second: 2
+        second: 1.71641791
     m_Colors:
       data:
         first:
