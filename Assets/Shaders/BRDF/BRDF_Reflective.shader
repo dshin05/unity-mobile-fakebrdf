@@ -1,11 +1,11 @@
 // BRDF Based Bobile Shader
 // -Cubemap Reflection
 // -Lookup Table for complex lighting
-Shader "Dongwon/BRDF/Reflfective"
+Shader "Dongwon/BRDF/1. Basic/Reflfective"
 {
 	Properties 
 	{
-		_HalfLambert ("HalfLambert", Range (0.3, 3.0)) = 0.5
+		//_HalfLambert ("HalfLambert", Range (0.3, 3.0)) = 0.5
 		_MainCol ("Base Color", Color) = (0.25, 0.25, 0.25)
 		_MainTex ("Base (RGB) Gloss (A)", 2D) = "white" {}
 		_Ramp ("Ramp", 2D) = "white" {}
@@ -54,7 +54,7 @@ Shader "Dongwon/BRDF/Reflfective"
 	fixed4 _RimColor;
     fixed _RimPower;
     fixed _RimMultiply;
-    fixed _HalfLambert;
+    //fixed _HalfLambert;
 	
 	inline fixed4 LightingMobileHL (SurfaceOutputMobileHL s, fixed3 lightDir, fixed3 viewDir, fixed atten)
 	{
@@ -62,7 +62,7 @@ Shader "Dongwon/BRDF/Reflfective"
 		
 		//Calculate Vectors
 			//for Diffuse
-			fixed nl = dot(s.Normal, lightDir);
+			fixed nl = max (0, dot(s.Normal, lightDir));
 			fixed ne = max (0, dot(s.Normal, viewDir));
 		
 			//for Sepcular
@@ -71,10 +71,10 @@ Shader "Dongwon/BRDF/Reflfective"
 		
 		//Composition
 			//Half-Lamberted Diffuse
-			fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert);
+			//fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert);
 			
 			//Ramp Shading
-			fixed3 ramp = tex2D (_Ramp, fixed2(ne, diff)).rgb;
+			fixed3 ramp = tex2D (_Ramp, fixed2(ne, nl)).rgb;
 			
 			//Simple Specular(use diffuse map's alpha channel as specular power)
 			//tuned for metalic specular

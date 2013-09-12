@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Gold
+  m_Name: BRDF_Gold
   m_Shader: {fileID: 4800000, guid: 763945272b3044b85a3d119f0f6e3775, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
@@ -17,6 +17,13 @@ Material:
           name: _MainTex
         second:
           m_Texture: {fileID: 0}
+          m_Scale: {x: 6, y: 4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 0057370f1aead42e1b45467ad61d0f42, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -33,23 +40,37 @@ Material:
           m_Texture: {fileID: 8900000, guid: a6d35668374034f938fa110bbb0c0086, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 60bce6e1e9f484262b26d0ec78c271d8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LUT
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Shininess
-        second: .0300000031
+        second: .0785809308
       data:
         first:
           name: _HalfLambert
-        second: .782089472
+        second: .300000012
       data:
         first:
           name: _RimPower
-        second: 2.17910457
+        second: 1.84328341
       data:
         first:
           name: _RimMultiply
-        second: 1.67164171
+        second: 1.79104459
     m_Colors:
       data:
         first:
@@ -58,7 +79,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .0392156877, g: .0392156877, b: .0392156877, a: .258823544}
+        second: {r: .132352948, g: .0912965238, b: 0, a: .258823544}
       data:
         first:
           name: _RimColor
