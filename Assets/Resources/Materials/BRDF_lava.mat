@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: BRDF_Ice
+  m_Name: BRDF_lava
   m_Shader: {fileID: 4800000, guid: e031b242454504adeb1da33356b4f59a, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
@@ -16,14 +16,14 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 790a9bd5b30984fa092b88bfb1ea194e, type: 3}
           m_Scale: {x: 5, y: 5}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: d694ae44a77ac409abb446569c114fa8, type: 3}
+          m_Texture: {fileID: 2800000, guid: c2e0169c10f12481aa062595e9826078, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -44,7 +44,7 @@ Material:
         first:
           name: _BRDF
         second:
-          m_Texture: {fileID: 2800000, guid: 963dfd4f1d7484519bcdf11c1d54efa2, type: 3}
+          m_Texture: {fileID: 2800000, guid: 3595c1244266e48daab4fc2f6189f62a, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -62,11 +62,11 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 1
+        second: .336775094
       data:
         first:
           name: _HalfLambert
-        second: .970149219
+        second: 0
       data:
         first:
           name: _RimPower
@@ -91,7 +91,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .723129332, g: .886678159, b: .91911763, a: .827450991}
+        second: {r: 1, g: 1, b: 1, a: .184313729}
       data:
         first:
           name: _RimColor

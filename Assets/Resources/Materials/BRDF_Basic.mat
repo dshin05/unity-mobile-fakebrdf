@@ -16,7 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 1e566d8cef14445ab9f2184eeacfcbb3, type: 3}
+          m_Texture: {fileID: 2800000, guid: d643075ae0b0b4a279de2d5ef9de367e, type: 3}
           m_Scale: {x: 6, y: 4}
           m_Offset: {x: 0, y: 0}
       data:
@@ -58,7 +58,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .112852886
+        second: .0737861693
       data:
         first:
           name: _HalfLambert
@@ -79,7 +79,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .948529422, g: .474360943, b: .299902678, a: .156862751}
+        second: {r: 1, g: 1, b: 1, a: .156862751}
       data:
         first:
           name: _RimColor

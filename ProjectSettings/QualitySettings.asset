@@ -12,12 +12,12 @@ QualitySettings:
     shadows: 1
     shadowResolution: 3
     shadowProjection: 0
-    shadowCascades: 4
+    shadowCascades: 1
     shadowDistance: 150
     blendWeights: 2
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 1
     vSyncCount: 1
