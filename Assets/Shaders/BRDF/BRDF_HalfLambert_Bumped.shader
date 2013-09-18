@@ -21,7 +21,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 	{ 
 		Tags { "RenderType"="Opaque" }
 		LOD 250
-		
+			
 	CGPROGRAM
 	#pragma surface surf MobileBRDF
 	
@@ -58,7 +58,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 		
 		fixed4 c;
 		c.rgb = (BRDFComp + spec) * light;
-		c.a = 0.0;
+		c.a = _MainCol.a;
 		return c;
 	}
 		
@@ -73,7 +73,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 	void surf (Input IN, inout SurfaceOutput o) {
 		fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);
 		o.Albedo = tex.rgb;
-		o.Alpha = tex.a;
+		o.Alpha = _MainCol.a;
 		o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));
 	}
 	

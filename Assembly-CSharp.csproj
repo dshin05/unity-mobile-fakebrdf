@@ -48,9 +48,13 @@
      <Compile Include="Assets\Scripts\Camera\CameraZoomPinch.cs" />
      <Compile Include="Assets\Scripts\Camera\SelectObject.cs" />
      <Compile Include="Assets\Scripts\fpscounter.cs" />
+     <Compile Include="Assets\Shaders\Fullscreen Effects\Refraction\ImageEffects.cs" />
+     <Compile Include="Assets\Shaders\Fullscreen Effects\Refraction\ImageRefractionEffect.cs" />
+     <Compile Include="Assets\Shaders\Fullscreen Effects\Refraction\SlinImageEffectBase.cs" />
      <None Include="Assets\Shaders\Basic\HalfLambert.shader" />
      <None Include="Assets\Shaders\BRDF\BRDF_HalfLambert_Bumped.shader" />
      <None Include="Assets\Shaders\BRDF\BRDF_Reflective.shader" />
+     <None Include="Assets\Shaders\Fullscreen Effects\Refraction\ImageRefractionEffect.shader" />
      <None Include="Assets\Shaders\BRDF\BRDF_Bumped.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
