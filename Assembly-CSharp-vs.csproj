@@ -56,6 +56,7 @@
      <None Include="Assets\Shaders\BRDF\BRDF_Reflective.shader" />
      <None Include="Assets\Shaders\Fullscreen Effects\Refraction\ImageRefractionEffect.shader" />
      <None Include="Assets\Shaders\BRDF\BRDF_Bumped.shader" />
+     <None Include="Assets\Shaders\Reflect-BumpSpec.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

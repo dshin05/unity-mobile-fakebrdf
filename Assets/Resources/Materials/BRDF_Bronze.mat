@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BRDF_Bronze
-  m_Shader: {fileID: 4800000, guid: e031b242454504adeb1da33356b4f59a, type: 3}
+  m_Shader: {fileID: 4800000, guid: d531fd2f2e5df4535aad21dca3f93f4d, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2

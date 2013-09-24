@@ -8,8 +8,8 @@ QualitySettings:
   m_QualitySettings:
   - serializedVersion: 2
     name: Fantastic
-    pixelLightCount: 4
-    shadows: 1
+    pixelLightCount: 1
+    shadows: 0
     shadowResolution: 3
     shadowProjection: 0
     shadowCascades: 1
@@ -17,7 +17,7 @@ QualitySettings:
     blendWeights: 2
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 4
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 1
     vSyncCount: 1

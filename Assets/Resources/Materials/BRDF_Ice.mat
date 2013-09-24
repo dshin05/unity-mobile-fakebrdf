@@ -17,7 +17,7 @@ Material:
           name: _MainTex
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 5, y: 5}
+          m_Scale: {x: 4, y: 4}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -62,11 +62,11 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 1
+        second: .10643661
       data:
         first:
           name: _HalfLambert
-        second: 2.23880601
+        second: 1.34328353
       data:
         first:
           name: _RimPower

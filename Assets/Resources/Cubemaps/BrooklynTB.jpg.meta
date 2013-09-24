@@ -32,5 +32,9 @@ TextureImporter:
   compressionQuality: 50
   alphaIsTransparency: 0
   textureType: 3
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 32
+    textureFormat: -3
+    compressionQuality: 50
   userData: 

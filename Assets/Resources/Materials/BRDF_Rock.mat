@@ -62,7 +62,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .0300000031
+        second: .10643661
       data:
         first:
           name: _HalfLambert
@@ -91,7 +91,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: 1, g: 1, b: 1, a: .458823532}
+        second: {r: 1, g: 1, b: 1, a: .36470589}
       data:
         first:
           name: _RimColor

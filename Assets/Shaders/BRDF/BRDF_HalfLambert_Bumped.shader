@@ -35,7 +35,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 	inline fixed4 LightingMobileBRDF (SurfaceOutput s, fixed3 lightDir, fixed3 viewDir, fixed atten)
 	{
 	
-	fixed3 light = (_LightColor0.rgb * atten * 2);
+	//fixed3 light = ( * );
 		
 	//Calculate Vectors
 		//Lambert
@@ -47,7 +47,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 		fixed nh = max (0, dot (s.Normal, h)); 
 		
 		//HalfLambert
-		fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert) * light;
+		fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert);
 		
 	//BRDF
 		fixed3 BRDF = tex2D (_BRDF, fixed2(ne, diff)).rgb;
@@ -57,7 +57,7 @@ Shader "Dongwon/BRDF/2. HalfLamberted/Bumped Specular"
 		fixed3 BRDFComp = (s.Albedo * _MainCol.rgb * BRDF); 
 		
 		fixed4 c;
-		c.rgb = (BRDFComp + spec) * light;
+		c.rgb = (BRDFComp + _LightColor0.rgb * spec) * (atten * 2);
 		c.a = _MainCol.a;
 		return c;
 	}

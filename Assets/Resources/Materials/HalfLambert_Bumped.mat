@@ -16,21 +16,21 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: d643075ae0b0b4a279de2d5ef9de367e, type: 3}
           m_Scale: {x: 6, y: 4}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 0057370f1aead42e1b45467ad61d0f42, type: 3}
+          m_Texture: {fileID: 2800000, guid: 120953f1090764ea0890469b2770259b, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _HalfLambert
-        second: 1.83582091
+        second: 5
     m_Colors:
       data:
         first:
@@ -39,4 +39,4 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .477941155, g: .477941155, b: .477941155, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}

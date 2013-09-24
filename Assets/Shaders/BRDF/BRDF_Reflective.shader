@@ -23,7 +23,7 @@ Shader "Dongwon/BRDF/1. Basic/Reflfective"
 	Tags { "RenderType" = "Opaque" }
 	
 	CGPROGRAM
-	#pragma surface surf MobileHL noambient
+	#pragma surface surf MobileHL
 	
 	struct Input 
 	{
@@ -78,16 +78,16 @@ Shader "Dongwon/BRDF/1. Basic/Reflfective"
 			
 			//Simple Specular(use diffuse map's alpha channel as specular power)
 			//tuned for metalic specular
-			fixed3 spec = pow (nh, _Shininess * 64) * _MainCol.a * s.Alpha * _RimColor.rgb;
+			fixed3 spec = pow (nh, _Shininess * 64);
 			
 			//Reflection(fake IOR using frensel)
-			fixed3 refl = s.Refl  * s.Alpha;
+			fixed3 refl = s.Refl;
 		
 			//RimLight
 			
 			fixed4 c;
 		
-		c.rgb = ((s.Albedo * _MainCol.rgb) + spec + (refl * s.RimLight) * ramp) * light;
+		c.rgb = ((s.Albedo * _MainCol.rgb ) + (spec + refl * s.RimLight) * _RimColor.rgb* s.Alpha)  * ramp * light;
 		return c;
 	}
 				

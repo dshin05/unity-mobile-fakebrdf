@@ -16,35 +16,35 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 6, y: 4}
+          m_Texture: {fileID: 2800000, guid: c14e826109b6546e486c0f4e9dbadb1f, type: 3}
+          m_Scale: {x: 4, y: 4}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 120953f1090764ea0890469b2770259b, type: 3}
-          m_Scale: {x: 6, y: 4}
+          m_Texture: {fileID: 2800000, guid: d96b8fc1d656e4d5d984b079d4b798c4, type: 3}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 2800000, guid: 60bce6e1e9f484262b26d0ec78c271d8, type: 3}
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 8900000, guid: a6d35668374034f938fa110bbb0c0086, type: 3}
+          m_Texture: {fileID: 8900000, guid: 7f0841d3aecc34e8682f1da5df50db6a, type: 3}
           m_Scale: {x: 4, y: 5}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BRDF
         second:
-          m_Texture: {fileID: 2800000, guid: 60bce6e1e9f484262b26d0ec78c271d8, type: 3}
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -58,19 +58,19 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .252307653
+        second: .11661835
       data:
         first:
           name: _HalfLambert
-        second: .300000012
+        second: 1.59403002
       data:
         first:
           name: _RimPower
-        second: 2.40298486
+        second: 2.4029851
       data:
         first:
           name: _RimMultiply
-        second: 1.71641791
+        second: 2
     m_Colors:
       data:
         first:
@@ -78,9 +78,17 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
           name: _MainCol
-        second: {r: .117647052, g: .117647052, b: .117647052, a: .258823544}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _RimColor
         second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .58431375, g: .58431375, b: .58431375, a: 1}
