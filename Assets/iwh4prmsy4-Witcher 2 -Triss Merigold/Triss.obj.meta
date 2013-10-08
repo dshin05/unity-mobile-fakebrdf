@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 6f010d74b02184e10b0e1ee025c292d7
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Model001_24_AccBelts_0.20_0_0.1_Head_Head_1
+    100002: Model001_24_Acces_0.20_0_0.6
+    100004: Model001_24_Belts_0.20_0_0.2_Torso_Spine_2
+    100006: Model001_24_Body1_0.20_0_0.8
+    100008: Model001_24_Body2_0.20_0_0.08
+    100010: Model001_24_Face_0.15_0_0.5_RightLeg_RightLeg_Knee
+    100012: Model001_24_Fingers_0.35_0_0.3
+    100014: Model001_24_HairCon_0.20_0_0.1_RightHand_RightArm_Hand
+    100016: Model001_4_Hair_0.20_0_0.08
+    100018: Model001_4_Mouth_0.20_0_0.2_LeftHand_LeftArm_Hand
+    100020: Model001_5_Eyes_0.15_0_0.1_LeftLeg_LeftLeg_Knee
+    100022: Model001_7_Eyelashes_0.1_0_0_Hips_Pelvis_1
+    100024: //RootNode
+    400000: Model001_24_AccBelts_0.20_0_0.1_Head_Head_1
+    400002: Model001_24_Acces_0.20_0_0.6
+    400004: Model001_24_Belts_0.20_0_0.2_Torso_Spine_2
+    400006: Model001_24_Body1_0.20_0_0.8
+    400008: Model001_24_Body2_0.20_0_0.08
+    400010: Model001_24_Face_0.15_0_0.5_RightLeg_RightLeg_Knee
+    400012: Model001_24_Fingers_0.35_0_0.3
+    400014: Model001_24_HairCon_0.20_0_0.1_RightHand_RightArm_Hand
+    400016: Model001_4_Hair_0.20_0_0.08
+    400018: Model001_4_Mouth_0.20_0_0.2_LeftHand_LeftArm_Hand
+    400020: Model001_5_Eyes_0.15_0_0.1_LeftLeg_LeftLeg_Knee
+    400022: Model001_7_Eyelashes_0.1_0_0_Hips_Pelvis_1
+    400024: //RootNode
+    2300000: Model001_24_AccBelts_0.20_0_0.1_Head_Head_1
+    2300002: Model001_24_Acces_0.20_0_0.6
+    2300004: Model001_24_Belts_0.20_0_0.2_Torso_Spine_2
+    2300006: Model001_24_Body1_0.20_0_0.8
+    2300008: Model001_24_Body2_0.20_0_0.08
+    2300010: Model001_24_Face_0.15_0_0.5_RightLeg_RightLeg_Knee
+    2300012: Model001_24_Fingers_0.35_0_0.3
+    2300014: Model001_24_HairCon_0.20_0_0.1_RightHand_RightArm_Hand
+    2300016: Model001_4_Hair_0.20_0_0.08
+    2300018: Model001_4_Mouth_0.20_0_0.2_LeftHand_LeftArm_Hand
+    2300020: Model001_5_Eyes_0.15_0_0.1_LeftLeg_LeftLeg_Knee
+    2300022: Model001_7_Eyelashes_0.1_0_0_Hips_Pelvis_1
+    3300000: Model001_24_AccBelts_0.20_0_0.1_Head_Head_1
+    3300002: Model001_24_Acces_0.20_0_0.6
+    3300004: Model001_24_Belts_0.20_0_0.2_Torso_Spine_2
+    3300006: Model001_24_Body1_0.20_0_0.8
+    3300008: Model001_24_Body2_0.20_0_0.08
+    3300010: Model001_24_Face_0.15_0_0.5_RightLeg_RightLeg_Knee
+    3300012: Model001_24_Fingers_0.35_0_0.3
+    3300014: Model001_24_HairCon_0.20_0_0.1_RightHand_RightArm_Hand
+    3300016: Model001_4_Hair_0.20_0_0.08
+    3300018: Model001_4_Mouth_0.20_0_0.2_LeftHand_LeftArm_Hand
+    3300020: Model001_5_Eyes_0.15_0_0.1_LeftLeg_LeftLeg_Knee
+    3300022: Model001_7_Eyelashes_0.1_0_0_Hips_Pelvis_1
+    4300000: Model001_24_AccBelts_0.20_0_0.1_Head_Head_1
+    4300002: Model001_24_Acces_0.20_0_0.6
+    4300004: Model001_24_Belts_0.20_0_0.2_Torso_Spine_2
+    4300006: Model001_24_Body1_0.20_0_0.8
+    4300008: Model001_24_Body2_0.20_0_0.08
+    4300010: Model001_24_Face_0.15_0_0.5_RightLeg_RightLeg_Knee
+    4300012: Model001_24_Fingers_0.35_0_0.3
+    4300014: Model001_24_HairCon_0.20_0_0.1_RightHand_RightArm_Hand
+    4300016: Model001_4_Hair_0.20_0_0.08
+    4300018: Model001_4_Mouth_0.20_0_0.2_LeftHand_LeftArm_Hand
+    4300020: Model001_5_Eyes_0.15_0_0.1_LeftLeg_LeftLeg_Knee
+    4300022: Model001_7_Eyelashes_0.1_0_0_Hips_Pelvis_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

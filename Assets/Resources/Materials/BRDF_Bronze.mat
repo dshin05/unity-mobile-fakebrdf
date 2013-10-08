@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BRDF_Bronze
-  m_Shader: {fileID: 4800000, guid: d531fd2f2e5df4535aad21dca3f93f4d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 11fa4f9a2eb734727b1c7411dd2e363c, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -23,8 +23,22 @@ Material:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 9643008a2f63a451c9a8b0e5f9169e41, type: 3}
+          m_Texture: {fileID: 2800000, guid: 120953f1090764ea0890469b2770259b, type: 3}
           m_Scale: {x: 6, y: 4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 5578738931d18404c9cd2861b8dd72f0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -42,14 +56,21 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _BRDF
+          name: _LUT
         second:
-          m_Texture: {fileID: 2800000, guid: 5578738931d18404c9cd2861b8dd72f0, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _LUT
+          name: _CubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: a6d35668374034f938fa110bbb0c0086, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: r_Cube
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -62,7 +83,7 @@ Material:
       data:
         first:
           name: _HalfLambert
-        second: 3.05970168
+        second: 2.21153855
       data:
         first:
           name: _RimPower
@@ -71,6 +92,22 @@ Material:
         first:
           name: _RimMultiply
         second: 1.14925373
+      data:
+        first:
+          name: _SpecPow
+        second: .291153848
+      data:
+        first:
+          name: _RimPow
+        second: 3
+      data:
+        first:
+          name: _RimMul
+        second: 1
+      data:
+        first:
+          name: _Exposure
+        second: .253846139
     m_Colors:
       data:
         first:
@@ -79,8 +116,16 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .514705896, g: .514705896, b: .514705896, a: .403921574}
+        second: {r: .463235319, g: .463235319, b: .463235319, a: .403921574}
       data:
         first:
           name: _RimColor
         second: {r: .602941155, g: .967139959, b: 1, a: 0}
+      data:
+        first:
+          name: _SpecCol
+        second: {r: .786764741, g: .329746962, b: .329746962, a: 1}
+      data:
+        first:
+          name: _RimCol
+        second: {r: .25999999, g: .189999998, b: .159999996, a: 0}

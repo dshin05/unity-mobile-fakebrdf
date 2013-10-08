@@ -58,7 +58,7 @@ Shader "Dongwon/BRDF/1. Basic/Reflfective"
 	
 	inline fixed4 LightingMobileHL (SurfaceOutputMobileHL s, fixed3 lightDir, fixed3 viewDir, fixed atten)
 	{
-		fixed3 light = (_LightColor0.rgb * atten * 2);
+		fixed3 light = (atten * 2);
 		
 		//Calculate Vectors
 			//for Diffuse
@@ -87,7 +87,8 @@ Shader "Dongwon/BRDF/1. Basic/Reflfective"
 			
 			fixed4 c;
 		
-		c.rgb = ((s.Albedo * _MainCol.rgb ) + (spec + refl * s.RimLight) * _RimColor.rgb* s.Alpha)  * ramp * light;
+		c.rgb = ((s.Albedo * _MainCol.rgb ) + (_LightColor0.rgb * (spec + refl * s.RimLight) ) * _RimColor.rgb * s.Alpha )  * ramp * light;
+		c.a = s.Alpha;
 		return c;
 	}
 				

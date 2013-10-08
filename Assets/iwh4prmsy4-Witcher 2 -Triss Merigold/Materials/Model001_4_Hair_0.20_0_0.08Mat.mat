@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Model001_4_Hair_0.20_0_0.08Mat
+  m_Shader: {fileID: 4800000, guid: da0b0e0735afb8144abde89c3b5336f6, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0051b7c33207e49cd988a9947bde1b12, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 761ba8ae6fd8f49baa79fdef34dd37a0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: d7e4affe148dc56419ea08323f78f6b2, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: bfd03d7a4dec92640b44f0db9bf4da76, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: 88f206c253b544657bb66ebcb0cb2b17, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AnisoTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 761ba8ae6fd8f49baa79fdef34dd37a0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .326923072
+      data:
+        first:
+          name: _Shininess
+        second: 3.19635344
+      data:
+        first:
+          name: _HalfLambert
+        second: .597014725
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _Fresnel
+        second: .365384609
+      data:
+        first:
+          name: _AnisoOffset
+        second: -.373134315
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .536764741, g: .26443556, b: .26443556, a: 1}
+      data:
+        first:
+          name: _MainCol
+        second: {r: 1, g: 1, b: 1, a: .403921574}

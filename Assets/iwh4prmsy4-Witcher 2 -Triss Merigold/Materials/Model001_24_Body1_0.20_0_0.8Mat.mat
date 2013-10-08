@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Model001_24_Body1_0.20_0_0.8Mat
+  m_Shader: {fileID: 4800000, guid: 57189405afa6445caa681d4287fc5acd, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f6718f1c61a764dacbd8efa4613af6ba, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 9c17b1fdeeb2f4fcd8fe5c8b4b633464, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 60bce6e1e9f484262b26d0ec78c271d8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d899d453fd5b405aac84a78cbe5afce, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: d7e4affe148dc56419ea08323f78f6b2, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: bfd03d7a4dec92640b44f0db9bf4da76, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 2.93698263
+      data:
+        first:
+          name: _HalfLambert
+        second: 1.08955228
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _Fresnel
+        second: .384615391
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .257352948, g: .257352948, b: .257352948, a: 1}
+      data:
+        first:
+          name: _MainCol
+        second: {r: 1, g: 1, b: 1, a: .352941185}

@@ -91,7 +91,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: 1, g: 1, b: 1, a: .36470589}
+        second: {r: .661764741, g: .661764741, b: .661764741, a: .36470589}
       data:
         first:
           name: _RimColor

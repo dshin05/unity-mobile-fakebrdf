@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: M_TheGuardian
-  m_Shader: {fileID: 4800000, guid: 763945272b3044b85a3d119f0f6e3775, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8f12b770f2b9e4e0d872829f18151c03, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -16,7 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 3203b468d098c482eb0ba47b2c08ea62, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -24,6 +24,41 @@ Material:
           name: _BumpMap
         second:
           m_Texture: {fileID: 2800000, guid: d96b8fc1d656e4d5d984b079d4b798c4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 9562af3a21060fd4c887f7253b973220, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 974ac51f7c9d1004b89cb94fb7009210, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: 1f50671adb34842969a3f791243ca75d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -37,33 +72,34 @@ Material:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 8900000, guid: 7f0841d3aecc34e8682f1da5df50db6a, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BRDF
-        second:
-          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
+          m_Texture: {fileID: 8900000, guid: 37999eae73c747149bd853e6a05f6926, type: 2}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Shininess
-        second: .278319448
+        second: .240052491
       data:
         first:
           name: _HalfLambert
-        second: 2.16417909
+        second: 5.08507442
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _Fresnel
+        second: 0
       data:
         first:
           name: _RimPower
-        second: 1.95522404
+        second: 2.73880601
       data:
         first:
           name: _RimMultiply
-        second: 1.85074627
+        second: 2
     m_Colors:
       data:
         first:
@@ -72,11 +108,11 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: .183823526, g: .183823526, b: .183823526, a: 1}
       data:
         first:
           name: _MainCol
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .492647052, g: .492647052, b: .492647052, a: 0}
       data:
         first:
           name: _RimColor

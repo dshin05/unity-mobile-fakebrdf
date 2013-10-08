@@ -79,6 +79,10 @@ Material:
         first:
           name: _FresnelPower
         second: 1.01044774
+      data:
+        first:
+          name: _Transparency
+        second: .343283564
     m_Colors:
       data:
         first:
@@ -104,3 +108,7 @@ Material:
         first:
           name: _Indicator
         second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 1, g: 1, b: 1, a: .650980413}

@@ -8,7 +8,7 @@ Shader "Dongwon/BRDF/1. Basic/Bumped Specular"
 
 	Properties 
 	{
-		//_HalfLambert ("HalfLambert", Range (0.0, 1.0)) = 5.0
+		_HalfLambert ("HalfLambert", Range (0.0, 5.0)) = 5.0
 		_MainCol ("Base Color", Color) = (1, 1, 1)
 		_Shininess ("Shininess", Range (0.03, 1)) = 0.078125
 		_MainTex ("Base (RGB) Gloss (A)", 2D) = "white" {}
@@ -30,7 +30,7 @@ Shader "Dongwon/BRDF/1. Basic/Bumped Specular"
 	sampler2D _BRDF;
 	fixed _Shininess;
 	fixed4 _MainCol;
-	//float _HalfLambert;
+	float _HalfLambert;
 	
 	inline fixed4 LightingMobileBRDF (SurfaceOutput s, fixed3 lightDir, fixed3 viewDir, fixed atten)
 	{
@@ -47,10 +47,10 @@ Shader "Dongwon/BRDF/1. Basic/Bumped Specular"
 		fixed nh = max (0, dot (s.Normal, h)); 
 		
 		//HalfLambert
-		//fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert) * light;
+		fixed diff = pow((nl * 0.5 + 0.5), _HalfLambert) * light;
 		
 	//BRDF
-		fixed3 BRDF = tex2D (_BRDF, fixed2(ne, nl)).rgb;
+		fixed3 BRDF = tex2D (_BRDF, fixed2(ne, diff)).rgb;
 		fixed3 spec = pow (nh, _Shininess * 128) * _MainCol.a * s.Alpha;
 		
 	//Composition

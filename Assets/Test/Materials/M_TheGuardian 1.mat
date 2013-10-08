@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: M_TheGuardian 1
-  m_Shader: {fileID: 4800000, guid: d531fd2f2e5df4535aad21dca3f93f4d, type: 3}
+  m_Shader: {fileID: 4800000, guid: bb9f4d49eea8e46f6ba54f1b04bd91d6, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -16,7 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 3203b468d098c482eb0ba47b2c08ea62, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -24,6 +24,27 @@ Material:
           name: _BumpMap
         second:
           m_Texture: {fileID: 2800000, guid: d96b8fc1d656e4d5d984b079d4b798c4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 37999eae73c747149bd853e6a05f6926, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 974ac51f7c9d1004b89cb94fb7009210, type: 2}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -38,13 +59,6 @@ Material:
           name: _Cube
         second:
           m_Texture: {fileID: 8900000, guid: a6d35668374034f938fa110bbb0c0086, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BRDF
-        second:
-          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:

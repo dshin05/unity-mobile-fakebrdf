@@ -30,7 +30,7 @@ Material:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 2800000, guid: 5578738931d18404c9cd2861b8dd72f0, type: 3}
+          m_Texture: {fileID: 2800000, guid: 4ac7048a48acb481aa6b677a01471012, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -58,7 +58,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .265058309
+        second: .100315511
       data:
         first:
           name: _HalfLambert
@@ -66,11 +66,11 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 2.17910433
+        second: 2.62686586
       data:
         first:
           name: _RimMultiply
-        second: 2
+        second: 1.5970149
     m_Colors:
       data:
         first:
@@ -79,7 +79,7 @@ Material:
       data:
         first:
           name: _MainCol
-        second: {r: .478431374, g: .478431374, b: .478431374, a: 1}
+        second: {r: .323529422, g: .323529422, b: .323529422, a: 1}
       data:
         first:
           name: _RimColor
